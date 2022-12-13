@@ -24,6 +24,6 @@ with:
 # git config --global user.name <juanpablovalencia>
 - name: deploy the app
 run: npm run deploy
-env:
-GH_TOKEN:${{ secrets.REACT }}
+# env:
+# GH_TOKEN:${{ secrets.REACT }}
 
