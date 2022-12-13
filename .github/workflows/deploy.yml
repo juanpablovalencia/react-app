@@ -25,5 +25,5 @@ with:
 - name: deploy the app
 run: npm run deploy
 env:
-REACT:${{ secrets.REACT }}
+GH_TOKEN:${{ secrets.REACT }}
 
